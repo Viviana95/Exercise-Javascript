@@ -1,26 +1,30 @@
-//Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
-
-const insertText = document.getElementById("expression").value;
-const button = document.getElementById("result");
 
 
-button.addEventListener('click',()=> console.log("intentandooooo"));
+const insertText = document.getElementById("expression");
+const button2 = document.getElementById("result");
 
-/*function probar(text,i) {
-    let text = insertText.length;
+
+button2.addEventListener('click',character);
+
+function character(){
+    let text = insertText.value;
+    let x = text.length;
     let i;
     for (i = 0; i < text; i++) {
-        
-        if (init.substr(i, 1) === "a") {
-            console.log(init.substr(i, 1));
+    
+        if (x.substr(i, 1) === "a") {
+            console.log(x.substr(i,1));
         }
-
+    
     }
 }
 
-/*
-var text = prompt("Escribe una frase");
-var nText = text.length;
-var i;
-for (i = 0; i < nText; i++) {
-if (text.substr(i,1) === "a")}*/
+/*no funcionaaaaaaaaaaaa
+
+function calcular(){
+    for (i=2;i < n1/2; i++) {
+        if (n1 % i === 0) {}
+                
+        }
+        console.log(i);
+}*/

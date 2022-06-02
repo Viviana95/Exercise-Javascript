@@ -2,8 +2,8 @@
 const inputnum1 = document.getElementById('numb1');
 const inputnum2 = document.getElementById('numb2');
 const inputnum3 = document.getElementById('numb3');
-
-let btnOk = document.getElementById('compareTreeNumbers');
+const btnOk = document.getElementById('compareTreeNumbers');
+const see2 = document.getElementById("text2");
 
 btnOk.addEventListener("click", result)
 
@@ -13,14 +13,19 @@ function result() {
     let num3 = inputnum3.value;
 
     if (num1 > num2 && num1 > num3) {
-        console.log("El mayor es " + num1);
+        see2.innerHTML=`El resultado es....${num1}`; 
+        
     }
     if (num2 > num1 && num2 > num3) {
-           console.log("El mayor es " + num2);
+        see2.innerHTML=`El resultado es....${num2}`;
+           
     }
     if (num3 > num1 && num3 > num2) {
-        console.log("El mayor es " + num3);
+        see2.innerHTML=`El resultado es....${num3}`;
+       
     }
+
+
     
 }
 

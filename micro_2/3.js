@@ -2,21 +2,21 @@
 
 const nu1 = document.getElementById("n1");
 const button = document.getElementById("btn");
+const see3 = document.getElementById("text3");
 
 button.addEventListener('click', () => {
     let num = nu1.value;
-    let prueba = result(num);
+    let prueba = result3(num);
     
-
 });
 
 
-function result(num) {
-
-    if (num % 2 === 0) {
-        console.log("Es divisible por 2");
+function result3(num) {
+  if (num % 2 === 0) {
+        see3.innerHTML=`${num} si es divisible por 2`;
+        
     }
     else {
-        console.log("No es divisible por 2");
+        see3.innerHTML=`${num} no es divisible por 2`;
     }
 }

@@ -10,17 +10,17 @@ btn.addEventListener('click', ()=>{
     let number2 = input2.value;
     let result = compare(number1, number2);
     
-    see.innerHTML=`El resultado es....${result}`; 
+    
 });
 {}
 function compare(number1,number2) {
     if (number1 > number2) {
-          
-        //console.log("El mayor es " + number1);
+        see.innerHTML=`El resultado es....${number1}`;   
+       
         return;
     }
-    
-    console.log("El mayor es " + number2);
+    see.innerHTML=`El resultado es....${number2}`; 
+   
     
 }
 
