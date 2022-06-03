@@ -12,7 +12,7 @@ btn.addEventListener('click', ()=>{
     
     
 });
-{}
+
 function compare(number1,number2) {
     if (number1 > number2) {
         see.innerHTML=`El resultado es....${number1}`;   
