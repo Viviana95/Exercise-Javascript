@@ -1,23 +1,10 @@
-/*var text = "A cacdsdav dv";
-var nText = text.length;
-var i;
- 
-if (i.substr(nText) === "a")
-
-
-console.log ("holaaa")//(text.substr(i,1))*/
-
-const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-
-function countVowels(sentence) {
-  let counts = 0;
-  for(let i = 0; i < vowels.length; i++) {
-    if(vowels.includes(sentence[i])) {
-      counts++;
-    }
-  }
-  return console.log(counts);
+var n1 = "7";
+var i = 2;
+while (n1 % i !== 0 && i < n1 / 2 ) {
+i++;
 }
-
-countVowels('Hello World');
-countVowels('AaEeIiOoUu');
+if (n1 % i !== 0) {
+console.log("El número es primo");
+} else {
+console.log("El número no es primo");
+}

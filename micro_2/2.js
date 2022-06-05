@@ -1,4 +1,5 @@
 //Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+
 const inputnum1 = document.getElementById('numb1');
 const inputnum2 = document.getElementById('numb2');
 const inputnum3 = document.getElementById('numb3');
