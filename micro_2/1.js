@@ -17,9 +17,11 @@ function compare(number1,number2) {
     if (number1 > number2) {
         see.innerHTML=`El resultado es....${number1}`;   
        
-        return;
     }
-    see.innerHTML=`El resultado es....${number2}`; 
+    else{
+        see.innerHTML=`El resultado es....${number2}`;
+    }
+    
    
     
 }
