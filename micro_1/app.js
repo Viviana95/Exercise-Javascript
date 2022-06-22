@@ -11,8 +11,6 @@ let result=document.getElementById('result');
    let resultS= num1+num2;
     result.innerHTML=`El resultado es ${resultS}`;
 
-
-
 //Escribe un programa que pida el nombre del usuario con un prompt o utilizando un input y escriba un texto que diga “Hola nombreUsuario"
 const nameU=document.getElementById('text3');
 let hello=document.getElementById('init');
@@ -25,15 +23,19 @@ function hi(){
 }
 
 //Escribe un programa que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
-let number1 = document.getElementById('text4').value;
-let number2 = document.getElementById('text5').value;
+
 let btn=document.getElementById('sum');
 let resultSumN=document.getElementById('resultSum');
 
 btn.addEventListener('click', sumNumber)
 
 function sumNumber() {
-    let see = number1 + number2;
-    resultSumN.innerHTML=`El resultado es  ${see}`; 
+    const num1S = document.getElementById('text4').value;
+    const num2S = document.getElementById('text5').value;
+    let see = parseInt(num1S) + parseInt(num2S);
+    
+    resultSumN.innerHTML= `El resultado es ${see}`;
+    
 }
+
    
